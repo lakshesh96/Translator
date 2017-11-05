@@ -101,8 +101,8 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
 
     public String translate(String text) throws Exception
     {
-        Translate.setClientId("lakshesh96");
-        Translate.setClientSecret("3jrjMsJOBswlh9TQWkU0Xwt0/StJcGwym/Qy8y12CWI=");
+        Translate.setClientId("[Input Id]");
+        Translate.setClientSecret("[Input Key]");
         //String translatedText = "";
         //translatedText = Translate.execute(text, Language.FRENCH);
         translatedText = Translate.execute(text, languages[lang_input_spinner.getSelectedItemPosition()],
